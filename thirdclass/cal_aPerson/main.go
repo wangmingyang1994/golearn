@@ -128,13 +128,13 @@ func TestFat(){
 	}
 }
 func main() {
-	testFat()
+	TestFat()
 	for{
 		var ifcontinue string
 		fmt.Print("是否继续？（y/n）")
 		fmt.Scanln(&ifcontinue)
 		if ifcontinue == "y"{
-			testFat()
+			TestFat()
 		}else{
 			return
 		}
