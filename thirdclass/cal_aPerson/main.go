@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func testFat(){
+func TestFat(){
 	fmt.Println("欢迎使用体脂计算器～")
 	var name string
 	fmt.Print("请输入姓名：")
