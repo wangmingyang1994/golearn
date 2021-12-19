@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func testFat(){
+func TestFat(){
 	fmt.Println("欢迎使用体脂计算器～")
 	var name string
 	fmt.Print("请输入姓名：")
@@ -128,13 +128,13 @@ func testFat(){
 	}
 }
 func main() {
-	testFat()
+	TestFat()
 	for{
 		var ifcontinue string
 		fmt.Print("是否继续？（y/n）")
 		fmt.Scanln(&ifcontinue)
 		if ifcontinue == "y"{
-			testFat()
+			TestFat()
 		}else{
 			return
 		}
